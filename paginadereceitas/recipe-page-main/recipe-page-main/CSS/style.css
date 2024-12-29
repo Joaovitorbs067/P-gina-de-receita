@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+    font-size: 62.5%;
+
+    /*Colors*/
+
+    -White: hsl(0, 0%, 100%);
+    -Stone: hsl(30, 54%, 90%);
+    -Stone: hsl(30, 18%, 87%);
+    -Stone: hsl(30, 10%, 34%);
+    -Stone: hsl(24, 5%, 18%);
+    -Brown: hsl(14, 45%, 36%);
+    -Rose: hsl(332, 51%, 32%);
+    -Rosehsl: hsl(330, 100%, 98%);
+
+    /*font-family: "Young Serif", serif;
+font-family: "Outfit", sans-serif;*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 2rem;
+}
+
+h1,
+h2 {
+    font-family: "Young Serif", serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+
+    height: 100vh;
+    padding: 12rem 0;
+
+    font-size: 1.6rem;
+    font-weight: 400;
+    background-color:hsl(30, 54%, 90%); ;
+
+
+}
+
+.container {
+    width: 73.6rem;
+    height: auto;
+    margin: auto 5rem;
+    padding: 4rem;
+    border-radius: 2rem;
+
+    background-color: hsl(0, 0%, 100%);
+
+}
+.hero h1{
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-top: 2rem ;
+
+    color: black;
+}
+.hero p{
+    margin-top: 1.5rem;
+}
+.hero article{
+    display: flex;
+    flex-direction: column;
+
+    width: 3rem;
+    height: auto;
+
+    padding: 3rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
+
+    background-color: var(--RoseWhite);
+
+    
+}
+.hero article li{
+    margin-left:3rem;
+    font-size: 1.6;
+}
+
+    .hero article h2{
+        font-family: "Outfit", sans-serif;
+        color:hsl(332, 51%, 32%);
+    }
+    
